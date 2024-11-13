@@ -7,11 +7,65 @@ xin chào
 {% block content %}
 {% for info in Info %}
 <div class="container" style="height: auto; width:100%">
-    <header class="row">
+    <header class="fixed-top">
         <div class="information">
-            <!-- <h1>My Information</h1> -->
+            <h1 class="text-center">My Information</h1>
         </div>
     </header>
+    <div class="content">
+        <div class="row">
+            <div class="col-3 self">
+                <div class="name-picture">
+                    <img src="C:\Users\84902\Pictures\z5982883273845_61508ce912475e12eb702a888c6e9764.jpg">
+                    <p>Nguyen Ngoc Quyen</p>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li>{{info.birthday}}</li>
+                        <li>{{info.age}}</li>
+                        <li>{{info.gender}}</li>
+                        <li>{{info.</li>
+                        <li></li>
+                        <li></li>
+                        <li>{{info.phone}}</li>
+                        <li>{{info.email}}</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="col-9 hobbies">
+                <div class="row img">
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\cat.jpg" alt="" class="hobbies">
+                        <p>Animal I love</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\country.jpg" alt="" class="hobbies">
+                        <p>Country I like</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\thing.jpg" alt="" class="hobbies">
+                        <p>Thing I love</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\game.jpg" alt="" class="hobbies">
+                        <p>Game I play</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\subject.jpg" alt="" class="hobbies">
+                        <p>Subject I like</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="C:\Users\84902\Pictures\dream.jpg" alt="" class="hobbies">
+                        <p>My Dream</p>
+                    </div>
+                </div>
+                <div class="quote">
+                    <p>“Xin chào, tôi là Nguyễn Ngọc Quyên. Tôi thích Hahahahahahahahahahahahahaha.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <style>
 
